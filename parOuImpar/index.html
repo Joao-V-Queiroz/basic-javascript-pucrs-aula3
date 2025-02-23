@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Verificando Lista de Números - Par ou ímpar</title>
+</head>
+<body>
+<header>
+    <h1>Verificando Lista de Números - Par ou ímpar</h1>
+</header>
+<div class="container">
+    <p>Para iniciar, entre com uma sequência de números, separados por vírgula.</p>
+    <br>
+    <p>Iremos verificar para você, quais desta sequência, são pares ou ímpares.</p>
+    <form onsubmit="checkNumbers(event)">
+        <label for="numbers">Digite os números (separados por vírgula):</label>
+        <input type="text" id="numbers" name="numbers" placeholder="Exemplo: 1, 2, 3, 4">
+        <button type="submit">Verificar</button>
+    </form>
+    <p id="resultado"></p>
+</div>
+</body>
+</html>
